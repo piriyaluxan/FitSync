@@ -1,10 +1,43 @@
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 import { ThemeProvider } from "@/components/layout/theme-provider";
+import { Metadata } from "next";
 
-export const metadata = {
-  title: "FitSync",
-  description: "Modern Gym Management SaaS",
+export const metadata: Metadata = {
+  title: {
+    default: "FitSync - Gym Management SaaS",
+    template: "%s | FitSync",
+  },
+
+  description:
+    "Modern gym management SaaS for fitness businesses, trainers, and gyms.",
+
+  keywords: [
+    "Gym SaaS",
+    "Fitness Management",
+    "Gym Software",
+    "Trainer Platform",
+    "Next.js SaaS",
+  ],
+
+  authors: [{ name: "Piriyaluxan" }],
+
+  metadataBase: new URL("https://your-domain.vercel.app"),
+
+  openGraph: {
+    title: "FitSync",
+    description: "Modern gym management SaaS platform for gyms and trainers.",
+    url: "https://your-domain.vercel.app",
+    siteName: "FitSync",
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "FitSync",
+    description: "Modern gym management SaaS platform for gyms and trainers.",
+  },
 };
 
 export default function RootLayout({
