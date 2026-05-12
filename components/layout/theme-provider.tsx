@@ -11,6 +11,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
         defaultTheme="system"
         enableSystem
         disableTransitionOnChange
+        scriptProps={{ type: "text/template" }}
       >
         {children}
       </NextThemesProvider>
