@@ -22,12 +22,12 @@ export const metadata: Metadata = {
 
   authors: [{ name: "Piriyaluxan" }],
 
-  metadataBase: new URL("https://your-domain.vercel.app"),
+  metadataBase: new URL("https://fit-sync.vercel.app"),
 
   openGraph: {
     title: "FitSync",
     description: "Modern gym management SaaS platform for gyms and trainers.",
-    url: "https://your-domain.vercel.app",
+    url: "https://fit-sync.vercel.app",
     siteName: "FitSync",
     locale: "en_US",
     type: "website",
