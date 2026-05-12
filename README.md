@@ -6,6 +6,12 @@ A modern, all-in-one gym management system designed to help fitness businesses s
 
 **FitSync** is a comprehensive SaaS platform built for fitness businesses of all sizes. It provides gym owners and managers with powerful tools to manage every aspect of their fitness business from member management to financial tracking. With an intuitive interface and real-time analytics, FitSync empowers fitness entrepreneurs to focus on what they do best—building thriving fitness communities.
 
+![home](image.png)
+
+![blog](image-1.png)
+
+![SaaS feature](image-2.png)
+
 ### Key Statistics
 
 - **500+** gyms worldwide trust FitSync
